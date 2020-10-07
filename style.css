@@ -1,0 +1,125 @@
+body{
+	font-size: 18px;
+	font-family: "Bai Jamjuree",sans-serif;
+	
+}
+p{
+	color: hsl(210, 10%, 33%);
+}
+header{
+	background-image: url(images/bg-header-desktop.png);
+	height: 300px;
+	width: 100%;
+	text-align: center;
+}
+.logo{
+
+	margin-top: 170px;
+    
+}
+.top{
+	text-align: center;
+}
+.buttons{
+	padding: 80px;
+
+
+}
+.button1{
+	width: 200px;
+	height: 40px;
+	border-radius: 20px;
+	margin-right: 10px;
+	background-color: hsl(171, 66%, 44%);
+	border: 0;
+	color: white;
+	font-size: 18px;
+	font-family: "Bai Jamjuree",sans-serif;
+}
+.button2{
+	width: 200px;
+	height: 40px;
+	border-radius: 20px;
+	margin-left: 10px;
+	background-color: hsl(233, 100%, 69%);
+	border: 0;
+	color: white;
+	font-size: 18px;
+	font-family: "Bai Jamjuree",sans-serif;
+}
+.computer{
+	margin-bottom: 90px;
+	padding: 70px;
+
+}
+.image1{
+	padding-right: 70px;
+	float: left;
+	width: 40%;
+	height: 40%;
+}
+.mid{
+	text-align: center;
+
+}
+.image2{
+	width: 40%;
+	height: 40%;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 50px;
+	padding: 70px;
+
+}
+
+
+.blacklist{
+	padding: 60px;
+	margin: 30px;
+}
+.company{
+	padding: 30px;
+}
+.compy{
+	padding: 30px;
+}
+footer{
+	padding-top: 30px;
+	margin-top: 90px;
+	background-color: lightgrey;
+	width: 100%;
+	height: 120px;
+}
+#bottom{
+	display: flex;
+	flex-direction: row;
+}
+#bottom p{
+	line-height: 20px;
+}
+#bottom{
+	background-color: rgb(241,237,237);
+	color: black;
+	margin-top: 10%;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+}
+.footlogo{
+	float: left;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	margin-left: 60px;
+	margin-top: 40px;
+}
+.icon{
+	float: right;
+	margin-top: 40px;
+	padding: 10px;
+}
